@@ -1,0 +1,11 @@
+app/(dashboard)/analytics/page.tsx(3,52): error TS2305: Module '"@/components/ui/card"' has no exported member 'CardDescription'.
+app/(dashboard)/dashboard/page.tsx(35,28): error TS2339: Property 'count' does not exist on type '{ id: any; }[]'.
+app/(dashboard)/revenue/page.tsx(3,52): error TS2305: Module '"@/components/ui/card"' has no exported member 'CardDescription'.
+app/(dashboard)/settings/page.tsx(1,29): error TS2305: Module '"@/components/ui/card"' has no exported member 'CardDescription'.
+app/(dashboard)/users/page.tsx(1,29): error TS2305: Module '"@/components/ui/card"' has no exported member 'CardDescription'.
+components/dashboard/recent-transactions.tsx(3,52): error TS2305: Module '"@/components/ui/card"' has no exported member 'CardDescription'.
+components/dashboard/revenue-chart.tsx(55,37): error TS2322: Type '(value: number) => [string, "MRR"]' is not assignable to type 'Formatter<number, "MRR"> & ((value: number, name: "MRR", item: Payload<number, "MRR">, index: number, payload: Payload<number, "MRR">[]) => ReactNode | [...])'.
+  Type '(value: number) => [string, "MRR"]' is not assignable to type 'Formatter<number, "MRR">'.
+    Types of parameters 'value' and 'value' are incompatible.
+      Type 'number | undefined' is not assignable to type 'number'.
+        Type 'undefined' is not assignable to type 'number'.
